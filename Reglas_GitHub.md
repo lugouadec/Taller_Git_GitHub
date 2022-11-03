@@ -1,4 +1,4 @@
-##Crear un nuevo repositorio desde la linea de comandos 
+## Crear un nuevo repositorio desde la linea de comandos 
 
     echo "# GitTest001" >> README.md
     git init
