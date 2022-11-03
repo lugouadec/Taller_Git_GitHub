@@ -1,19 +1,17 @@
-## …or create a new repository on the command line
+##Crear un nuevo repositorio desde la linea de comandos 
 
     echo "# GitTest001" >> README.md
     git init
     git add README.md
     git commit -m "first commit"
     git branch -M main
-    git remote add origin https://github.com/lugouadec/GitTest001.git
+    git remote add origin https://github.com/usuario/Nombre_Repositorio.git
     git push -u origin main
   
-##  …or push an existing repository from the command line
+##  Realizar un _push_ a un repositorio existente en GItHub
 
-    git remote add origin https://github.com/lugouadec/GitTest001.git
+    git remote add origin https://github.com/usuario/Nombre_Repositorio.git
     git branch -M main
     git push -u origin main
 
-## …or import code from another repository
 
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
